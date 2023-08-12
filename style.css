@@ -1,0 +1,66 @@
+body{
+
+    background-color: green;
+
+}
+body{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 5rem;
+    color: #212529;
+    background: linear-gradient(to right,red,white);
+    font-family: 'Sofia';
+}
+.h1{
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Reggae One', cursive;
+
+}
+.h2{
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 3rem;
+    font-family: 'Reggae One', cursive;
+    font-weight: 500;
+    margin-bottom: 5rem;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+
+}
+.heading{
+  font-family: 'Reggae One', cursive;
+  font-size: 3rem;
+}
+#roll {
+  margin-left: 50rem;
+  background-color: maroon;
+  display: inline-block;
+  /* color: white; */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 3rem;
+  cursor: pointer;
+  width: 7rem;
+  height: -15rem;
+
+}
+
+#roll:hover {
+  background-color: darkred;
+}
+img{
+  width: 18rem;
+}
+
+.player1{
+  margin-top: -15rem;
+}
+.player2{
+  margin-top: -15rem;
+}
